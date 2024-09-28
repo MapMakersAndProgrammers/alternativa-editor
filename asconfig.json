@@ -6,5 +6,5 @@
         "output": "build/AlternativaEditor.swf"
     },
     "mainClass": "AlternativaEditor",
-    "application": "AlternativaEditor-app"
+    "application": "AlternativaEditor-app.xml"
 }

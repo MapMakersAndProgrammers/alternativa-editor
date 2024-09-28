@@ -49,9 +49,9 @@ package alternativa.editor.scene {
 		private var axisIndicatorOverlay:Shape;
 		private var axisIndicatorSize:Number = 30;
 		
-		[Embed (source = "red_cursor.jpg")] private static var redClass:Class;
+		[Embed (source = "/red_cursor.jpg")] private static var redClass:Class;
 		private static const redBmp:BitmapData = new redClass().bitmapData;
-		[Embed (source = "green_cursor.jpg")] private static var greenClass:Class;
+		[Embed (source = "/green_cursor.jpg")] private static var greenClass:Class;
 		private static const greenBmp:BitmapData = new greenClass().bitmapData;
 		
 		public function CursorScene(eventSourceObject:DisplayObject) {

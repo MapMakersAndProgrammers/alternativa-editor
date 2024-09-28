@@ -61,7 +61,7 @@ package alternativa.editor.prop {
 		private var matrix:Matrix = new Matrix();
 		
 		
-		[Embed (source = "red_cursor.jpg")] private static var redClass:Class;
+		[Embed (source = "/red_cursor.jpg")] private static var redClass:Class;
 		private static const redBmp:BitmapData = new redClass().bitmapData;
 		
 		public function Prop(object:Object3D, library:String, group:String, needCalculate:Boolean=true) {
